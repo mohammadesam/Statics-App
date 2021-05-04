@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>statistic calc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="workSpace">
+        <div class="logo">
+          <img src="bar-chart.svg" width="50" height="50" alt="" />
+        </div>
+
+        <div class="sample-list">
+          <div class="label">No Values!!</div>
+        </div>
+
+        <div class="input-feild">
+          <input
+            type="number"
+            id="input_feild"
+            placeholder="Enter the Next Value"
+          />
+          <button id="add_number_btn">Add</button>
+        </div>
+        <button class="calc-btn">Calculate</button>
+
+        <div class="screen">
+          <div class="resultBar">458</div>
+          <div class="showDetails">
+            <img src="arrow-down.svg" width="15" height="15" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="sideBar">
+        <div class="calc-types">
+          <div class="type" data-type="Mean">arithmetic Mean</div>
+          <div class="type" data-type="Mean">geometric Mean</div>
+          <div class="type" data-type="Mean">harmonic mean</div>
+          <div class="type" data-type="Mean">root mean square</div>
+          <div class="type" data-type="median">median</div>
+          <div class="type" data-type="mode">mode</div>
+          <div class="type">intermediate variation</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
